@@ -1,0 +1,119 @@
+:root {
+  --text-color: rgb(255, 255, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+
+  /*Setting image as background*/
+  background-image: url("../Images/sky2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#date {
+  width: 85%;
+  max-width: 375px;
+  max-height: 700px;
+  padding: 10px;
+  text-align: right;
+  font-size: 0.8rem;
+}
+.container {
+  width: 85%;
+  height: 65%;
+
+  max-width: 375px;
+  max-height: 700px;
+
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+}
+.location {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.location p {
+  font-size: 1.1rem;
+  padding-left: 5px;
+}
+#forecast-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-size: 1.2rem;
+}
+.image-of-weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image-of-weather img {
+  width: 110px;
+  height: 110px;
+}
+.temperature-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#weather-description {
+  font-size: 0.8rem;
+  margin: 5px;
+}
+#temperature {
+  margin-top: 5px;
+  font-size: 4rem;
+}
+#uv-index {
+  font-size: 0.7rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--text-color);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+input[type="submit"] {
+  padding: 8px;
+  margin-left: 5px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 255, 255);
+  color: grey;
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
