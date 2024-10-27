@@ -13,7 +13,7 @@ body {
   font-family: "Roboto", sans-serif;
 
   /*Setting image as background*/
-  background-image: url("../Images/sky2.jpg");
+  background-image: url("./Images/sky2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
